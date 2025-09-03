@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <!-- Link to the external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="main-header">
+        <nav class="main-nav">
+            <a href="index.html" class="logo">&lt;AG /&gt;</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <!-- The "active" class highlights the current page -->
+                <li><a href="projects.html" class="active">Projects</a></li>
+            </ul>
+            <!-- Hamburger Menu Icon -->
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Projects Page Content -->
+        <section id="projects">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="image.png" alt="Weather-App">
+                        </div>
+                        <div class="project-info">
+                            <h3>Weather App</h3>
+                            <p>The app
+                                integrates the Geolocation API to fetch real-time weather data and allows users to
+                                search any city
+                                manually. This project strengthened my skills in API integration, JavaScript
+                                interactivity, and responsive
+                                UI design.</p>
+                            <div class="tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">Javascript</span>
+                            </div>
+                            <a href="https://aditya9600ghosh.github.io/WeatherApp/" target="_blank">View Live &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="game.png" alt="Tic-Tac-Toe">
+                        </div>
+                        <div class="project-info">
+                            <h3>3x3 Tic-Tac-Toe Game</h3>
+                            <p>3x3 Tic-Tac-Toe game using HTML, CSS, and JavaScript with full game logic for player
+                                turns, win/draw detection, and invalid move prevention. I designed a responsive,
+                                user-friendly interface
+                                with reset functionality for repeated gameplay.</p>
+                            <div class="tags">
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                            </div>
+                            <a href="https://aditya9600ghosh.github.io/TicTacToe_Game/" target="_blank">View Live
+                                &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <p>&copy; 2024 Aditya Ghosh. Crafted with passion.</p>
+    </footer>
+
+    <!-- Link to the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
